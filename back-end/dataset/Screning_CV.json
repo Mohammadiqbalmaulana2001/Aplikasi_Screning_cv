@@ -1,0 +1,442 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hallo",
+        "hai",
+        "halo",
+        "hei",
+        "hi",
+        "hy",
+        "pagi",
+        "morning",
+        "siang",
+        "afternoon",
+        "sore",
+        "malam",
+        "bro",
+        "sis",
+        "kawan"
+      ],
+      "responses": [
+        "Hai! minQ di sini. Mau tau informasi tentang apa nih?",
+        "Halo! Saya minQ, salam kenal ya! Mau tau tentang  minQ, kan?",
+        "Helo! Ini minQ. Lagi kepo tentang minQ ya?"
+      ]
+    },
+    {
+      "tag": "minQ",
+      "patterns": [
+        "Apa itu minQ?",
+        "Siapa minQ?"
+      ],
+      "responses": [
+        "minQ adalah aplikasi chatbot informasi tentang AI screening CV dalam proses peninjauan dan evaluasi curriculum vitae (CV) dari para pelamar pekerjaan. Teknologi ini memungkinkan perusahaan untuk mengotomatisasi tahap awal dari proses perekrutan dengan menggunakan algoritma dan model pembelajaran mesin untuk menganalisis CV dan mencocokkannya dengan kriteria tertentu yang ditetapkan oleh perusahaan."
+      ]
+    },
+    {
+      "tag": "pencipta_minQ",
+      "patterns": [
+        "Siapa pembuatmu?",
+        "Siapa pembuat minQ?",
+        "minQ, yang buat kamu siapa sih?",
+        "Siapa penciptamu, minQ?"
+      ],
+      "responses": [
+        "minQ diciptakan oleh mahasiswa dan mahasiswi dari program Kampus Merdeka yang memiliki ide kreatif dan semangat team yang luar biasa walaupun banyak rintangan dan drama tapi mereka berhasil menciptakan saya saat ini",
+        "Pembuat minQ dari kalangan mahasiswa dan mahasiswi lho!",
+        "Penciptaku berasal dari para mahasiswa yang kreatif, sehingga aku bisa aktif saat ini!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Dah",
+        "Dadah",
+        "Bye",
+        "Byee",
+        "Good bye",                                       
+        "Selamat tinggal",
+        "Sampai jumpa",
+        "Bai",
+        "See you"
+      ],
+      "responses": [
+        "Bye!",
+        "Dadahh!",
+        "Good bye!",
+        "Dahh, semoga harimu menyenangkan yaa!",
+        "Sampai jumpa lagi!",
+        "See u! Senang bisa membantu"
+      ]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Terima kasih",
+        "Makasih",
+        "Terima kasih banyak"
+      ],
+      "responses": [
+        "Dengan senang hati :)",
+        "Sama-sama yaa"
+      ]
+    },
+    {
+      "tag": "penjelasan_Screning_CV",
+      "patterns": [
+        "Apa itu Screning CV?",
+        "Siapa Screning CV?"
+      ],
+      "responses": [                           
+        "Screning CV adalah proses awal dalam rekrutmen di mana pihak pengelola atau tim HR meninjau dan menilai curriculum vitae (CV) atau resume dari pelamar pekerjaan untuk menentukan apakah mereka memenuhi persyaratan dasar untuk posisi yang ditawarkan.",
+        "Penting untuk mencatat bahwa screning CV adalah tahap awal dari proses rekrutmen, dan kandidat yang lolos ke tahap ini kemudian akan diundang untuk mengikuti wawancara atau asesmen lanjutan sebelum keputusan akhir diambil.",
+        "Screning CV adalah tahap awal dari proses rekrutmen, dan kandidat yang lolos ke tahap ini kemudian akan diundang untuk mengikuti wawancara atau asesmen lanjutan sebelum keputusan akhir diambil."
+      ]
+    },
+    {
+      "tag": "Aplikasi_Screning_CV",
+      "patterns": [
+        "Apa itu aplikasi Screning CV?",
+        "apa itu aplikasi Screning CV?"
+      ],
+      "responses": [
+        "Aplikasi Screning CV adalah aplikasi informasi tentang AI screening CV dalam proses peninjauan dan evaluasi curriculum vitae (CV) dari para pelamar pekerjaan.",
+        "Aplikasi Screning CV adalah aplikasi informasi tentang AI screening CV dalam proses peninjauan dan evaluasi curriculum vitae (CV) dari para pelamar pekerjaan."
+      ]
+    },
+    {
+      "tag": "tujuan_Screning_CV",
+      "patterns": [
+        "Apa tujuan Screning CV?",
+        "manfaat dari Screning CV?",
+        "kegunaan Screning CV?"
+      ],
+      "responses": [
+        "Memisahkan kandidat-kandidat yang memenuhi kriteria dari mereka yang tidak memenuhi kriteria dasar yang diperlukan untuk posisi yang sedang diisi.",
+        "Menghemat waktu dan sumber daya dengan cara mengidentifikasi kandidat-kandidat yang paling sesuai sejak awal, sehingga tim HR dapat fokus pada proses seleksi yang lebih mendalam."
+      ]
+    },
+    {
+      "tag": "cara_kerja_Screning_CV",
+      "patterns": [
+        "Bagaimana cara kerja Screning CV?",
+        "Bagaimana cara kerja ninQ?"
+      ],
+      "responses": [
+        "Cara kerja Screning CV bekerja dengan memisahkan kandidat-kandidat yang memenuhi kriteria dari mereka yang tidak memenuhi kriteria dasar yang diperlukan untuk posisi yang sedang diisi."
+      ]
+    },
+    {
+      "tag": "cara_kerja_cv",
+      "patterns": [
+        "Bagaimana aplikasi CV Screening bekerja/bagaimana cara kerja screening cv?"
+      ],
+      "responses": [
+        "1. Kumpulkan resume:\nLamaran diposting online dan calon kandidat mengirimkan CV (resume) dan surat lamaran  melalui platform. \n 2. Pindaian teks: \n Sistem pemfilteran CV terlebih dahulu memindai teks  dokumen yang diterima. Termasuk didalamnya penggalian informasi seperti nama, alamat, pendidikan, pengalaman kerja dan keterampilan dari CV. \n3. Kriteria evaluasi:\n Sistem ATS dapat diprogram untuk mencari kata kunci dan frase spesifik yang berhubungan dengan pekerjaan yang diinginkan. Ini mungkin termasuk keterampilan, pengalaman, pelatihan dan sertifikasi yang diperlukan.\n 4. Evaluasi : Setiap CV dievaluasi berdasarkan kesesuaiannya dengan kriteria yang telah ditentukan. Setiap kandidat akan dinilai berdasarkan seberapa cocok mereka untuk posisi yang diinginkan.\n5. Pemfilteran otomatis: \n CV yang mencapai poin cukup atau melebihi ambang batas tertentu akan melanjutkan ke tahap berikutnya. CV yang tidak memenuhi kriteria akan didiskualifikasi secara otomatis."
+      ]
+    },
+    {
+      "tag": "penggunaan_Screning_CV_umum",
+      "patterns": [
+        "Apakah ada panduan penggunaan yang tersedia (untuk umum)? "
+      ],
+      "responses": [
+        "Pengguna dapat mengakses aplikasi melalui website ……\n Pengguna memilih mode aplikasi sesuai kebutuhan (umum/perusahaan)\nSelanjutnya pengguna dapat mengupload file CV yang akan diproses oleh aplikasi dalam format PDF. Setelah itu pengguna mengklik tombol submit.\n Kemudian CV akan diproses oleh aplikasi untuk mendapatkan hasil berupa saran terkait penulisan CV pengguna terhadap kriteria yang sesuai.\nTerakhir, Pengguna menunggu hasil yang akan keluar lalu pengguna dapat\n memperbaiki CV sesuai dengan saran yang telah diberikan."
+      ]
+    },
+    {
+      "tag": "penggunaan_Screning_CV_perusahaan",
+      "patterns": [
+        "Apakah ada panduan penggunaan yang tersedia (untuk perusahaan)?"
+      ],
+      "responses": [
+        "Pengguna dapat mengakses aplikasi melalui website ……\nPengguna memilih mode aplikasi sesuai kebutuhan (umum/perusahaan)\n Selanjutnya pengguna dapat mengupload file CV yang akan diproses oleh aplikasi\n dalam format PDF (Catatan : Aplikasi dapat memproses 20 format file PDF dalam \nsekali upload). Setelah itu pengguna mengklik tombol submit.\nKemudian CV akan diproses oleh aplikasi untuk mendapatkan hasil berupa skor terkait CV yang telah diupload yang sesuai dengan kriteria.\nTerakhir, Pengguna menunggu hasil yang akan keluar lalu pengguna dapat menggunakan hasil tersebut untuk membantu dalam mempertimbangkan kandidat dalam proses rekrutmen."
+      ]
+    },
+    {
+      "tag": "format_file_Screning_CV",
+      "patterns": [
+        "Format file apa yang kompatibel untuk aplikasi ini? "
+      ],
+      "responses": [
+        "Format file yang kompatibel untuk aplikasi ini adalah format file Portable Document Format (PDF)."
+      ]
+    },
+    {
+      "tag": "screening CV dapat membantu departemen HR/SDM",
+      "patterns": [
+        "Apakah aplikasi screening CV dapat membantu departemen HR/SDM mengurangi kesalahan manusia dalam penyeleksian CV?"
+      ],
+      "responses": [
+        "Ya, aplikasi ini dapat membantu departemen HR/SDM mengurangi kesalahan manusia dalam penyeleksian CV karena aplikasi dapat secara otomatis menyaring CV dan memfilternya berdasarkan kriteria yang diperlukan seperti kata kunci, keterampilan, pengalaman kerja, dan pendidikan yang diselesaikan. Oleh karena itu, aplikasi ini dapat membantu departemen HR/SDM mempercepat proses pemilihan resume dan mengurangi human error dalam pemilihan CV."
+      ]
+    },
+    {
+      "tag": "cara_aplikasi_Screning_CV",
+      "patterns": [
+        "Bagaimana cara aplikasi ini memberikan saran untuk memperbaiki CV?"
+      ],
+      "responses": [
+        "Aplikasi ini menggunakan algoritma dan aturan tertentu untuk menilai kesesuaian CV dengan posisi pekerjaan yang ditentukan. Aplikasi ini terintegrasi dengan beberapa fitur seperti;\n a.Pemindaian Teks, untuk mengevaluasi kata kunci yang relevan dengan posisi pekerjaan yang diinginkan\n b.Kesesuaian dan Kelengkapan, untuk menilai sejauh mana CV sesuai dengan persyaratan dan kelengkapan CV tersebut\n c.Analisis Gaya Penulisan, memberikan rekomendasi dalam memperbaiki tata bahasa, struktur kalimat, dan gaya penulisan secara umum\n d.Saran Konten, memberi saran mengenai informasi penting yang harus dicantumkan dalam CV seperti pengalaman kerja, pendidikan, keterampilan, serta pencapaian \n e.Pemformatan dan Desain, memberikan saran perbaikan dalam hal pemformatan, tata letak, dan desain CV\n f.Tips dan Panduan, menyertakan panduan umum cara penulisan CV yang efektif"
+      ]
+    },
+    {
+      "tag": "manfaat_aplikasi_Screning_CV",
+      "patterns": [
+        "Apakah aplikasi screening CV dapat membantu karyawan meningkatkan peluang mereka untuk diterima di perusahaan yang diinginkan?"
+      ],
+      "responses": [
+        "Ya, karena dengan aplikasi ini, karyawan dapat memperoleh kesempatan untuk diterima di perusahaan yang diinginkan, sehingga karyawan dapat meningkatkan peluang mereka untuk diterima di perusahaan yang diinginkan."
+      ]
+    },
+    {
+      "tag": "manfaat_aplikasi_Screning_CV",
+      "patterns": [
+        "Apakah aplikasi screening CV dapat membantu karyawan meningkatkan peluang mereka untuk diterima di perusahaan yang diinginkan?"
+      ],
+      "responses": [
+        "Ya, karena dengan mengintegrasikan fitur-fitur yang terdapat dalam aplikasi screening CV, pengguna dapat memperoleh perbaikan dan saran yang lebih rinci terhadap pekerjaan yang akan mereka lamar dan memberikan kesempatan untuk memperbaiki dan meningkatkan kualitas CV sehingga meningkatkan peluang untuk diterima dalam proses seleksi di sebuah perusahaan."
+      ]
+    },
+    {
+      "tag": "screening CV dapat membantu perusahaan",
+      "patterns": [
+        "Apakah aplikasi screening CV dapat membantu perusahaan menghemat waktu dan biaya dalam proses seleksi karyawan? "
+      ],
+      "responses": [
+        "Ya, aplikasi screening CV dapat membantu perusahaan menghemat waktu dan biaya dalam proses seleksi karyawan. Namun perlu diingat bahwa aplikasi screening CV tidak dapat sepenuhnya menggantikan peran manusia dalam proses seleksi. Meskipun aplikasi dapat melakukan pemindaian awal, seringkali diperlukan penilaian lebih mendalam dan interaksi manusia untuk memahami keterampilan, kepribadian, dan budaya perusahaan calon karyawan, oleh karena itu perusahaan harus berhati-hati dalam mengintegrasikan aplikasi ini ke dalam proses seleksi mereka agar tetap memastikan kualitas dan kecocokan karyawan yang baik."
+      ]
+    },
+    {
+      "tag": "screening CV dapat membantu karyawan",
+      "patterns": [
+        "Apakah aplikasi screening CV dapat membantu karyawan dalam meningkatkan keterampilan mereka dalam menulis CV?  "
+      ],
+      "responses": [
+        "Ya. Aplikasi ini dapat membantu karyawan dalam meningkatkan keterampilan mereka dalam menulis CV karena aplikasi ini dapat memberikan saran untuk memperbaiki CV karyawan berdasarkan kriteria yang diminta seperti kata kunci, keterampilan, pengalaman kerja, dan pendidikan yang ditempuh. Dengan demikian, karyawan dapat memperbaiki CV mereka agar lebih sesuai dengan kebutuhan perusahaan dan meningkatkan peluang mereka untuk diterima bekerja. Selain itu, karyawan juga dapat belajar dari saran yang diberikan oleh aplikasi untuk meningkatkan keterampilan mereka dalam menulis CV di masa depan."
+      ]
+    },
+    {
+      "tag": "biaya_aplikasi_Screning_CV",
+      "patterns": [
+        "Bagaimana biaya penggunaan aplikasi ini?"
+      ],
+      "responses": [
+        "Aplikasi ini tidak dipungut biaya (gratis), pengguna hanya perlu terkoneksi dengan internet untuk mengaksesnya."
+      ]
+    },
+    {
+      "tag": "aplikasi ini digunakan dalam berbagai industri",
+      "patterns": [
+        "Bisakah aplikasi ini digunakan dalam berbagai industri atau hanya pada industri tertentu? "
+      ],
+      "responses": [
+        "Ya, bisa. Aplikasi ini bisa digunakan dalam berbagai industri, tidak terbatas pada industri tertentu. Prinsip dasar dari aplikasi ini adalah untuk mengotomatisasi proses peninjauan CV dan mencocokkan kriteria tertentu dengan CV yang masuk. Oleh karena itu, aplikasi ini dapat diterapkan di hampir semua industri di mana proses perekrutan karyawan dilakukan."
+      ]
+    },
+    {
+      "tag":"Bias di aplikasi ini",
+      "patterns":[
+        "Bagaimana aplikasi ini menghindari bias dalam penilaian CV?"
+      ],
+      "responses":[
+        "cara aplikasi ini menghindari bias dalam penilaian CV adalah dengan memisahkan kriteria penilaian CV yang berbeda dari kriteria penilaian CV yang berbeda."
+      ]
+    },
+    {
+      "tag": "Bias di aplikasi ini",
+      "patterns": [
+        "Bagaimana aplikasi ini menghindari bias dalam penilaian CV?"
+      ],
+      "responses": [
+        "Cara aplikasi ini menghindari bias dalam penilaian CV adalah dengan memisahkan kriteria penilaian CV yang berbeda dari kriteria penilaian CV yang berbeda."
+      ]
+    },
+    {
+      "tag": "penggunaan_minQ",
+      "patterns": [
+        "Bagaimana cara menggunakan minQ?",
+        "Apa langkah-langkah untuk memulai dengan minQ?"
+      ],
+      "responses": [
+        "Untuk menggunakan minQ, pengguna dapat mengakses aplikasi melalui website resmi. Selanjutnya, pengguna memilih mode aplikasi sesuai kebutuhan (umum/perusahaan). Setelah itu, pengguna dapat mengunggah file CV dalam format PDF. Setelah CV diproses oleh aplikasi, pengguna akan mendapatkan hasil berupa saran terkait penulisan CV sesuai dengan kriteria yang sesuai. Pengguna kemudian dapat memperbaiki CV berdasarkan saran yang diberikan oleh aplikasi."
+      ]
+    },
+    {
+      "tag": "keamanan_data",
+      "patterns": [
+        "Bagaimana minQ menjaga keamanan data pengguna?"
+      ],
+      "responses": [
+        "minQ mengutamakan keamanan data pengguna. Semua data yang diunggah oleh pengguna dienkripsi dan disimpan dengan aman. Selain itu, minQ tidak membagikan data pengguna dengan pihak ketiga tanpa izin. Tim minQ juga melakukan pemantauan terus-menerus untuk mengidentifikasi dan mencegah potensi ancaman keamanan."
+      ]
+    },
+    {
+      "tag": "integrasi_platform",
+      "patterns": [
+        "Apakah minQ dapat diintegrasikan dengan platform lain?"
+      ],
+      "responses": [
+        "Ya, minQ dapat diintegrasikan dengan berbagai platform rekrutmen dan manajemen SDM. Tim minQ menyediakan dokumentasi dan bantuan teknis untuk memudahkan proses integrasi dengan sistem yang ada."
+      ]
+    },
+    {
+      "tag": "dukungan_pengguna",
+      "patterns": [
+        "Bagaimana cara mendapatkan bantuan atau dukungan jika saya mengalami masalah dengan minQ?"
+      ],
+      "responses": [
+        "Pengguna dapat menghubungi tim dukungan minQ melalui email support@minq.com atau melalui formulir kontak yang tersedia di situs web resmi minQ. Tim dukungan akan dengan senang hati membantu menyelesaikan masalah atau memberikan bantuan teknis."
+      ]
+    },
+    {
+      "tag": "fitur_utama_minQ",
+      "patterns": [
+        "Apa saja fitur utama yang ditawarkan oleh minQ?"
+      ],
+      "responses": [
+        "minQ menawarkan berbagai fitur utama untuk membantu dalam proses seleksi CV, termasuk pemindaian teks otomatis, evaluasi kriteria, analisis gaya penulisan, saran konten, pemformatan dan desain, serta tips dan panduan umum cara penulisan CV yang efektif."
+      ]
+    },
+    {
+      "tag": "integrasi_platform_minQ",
+      "patterns": [
+        "Dapatkah minQ diintegrasikan dengan sistem manajemen SDM yang sudah ada di perusahaan?"
+      ],
+      "responses": [
+        "Ya, minQ dapat diintegrasikan dengan sistem manajemen SDM (Sumber Daya Manusia) yang sudah ada di perusahaan. Tim minQ menyediakan panduan dan bantuan teknis untuk memastikan integrasi yang lancar dengan sistem yang ada."
+      ]
+    },
+    {
+      "tag": "keamanan_data_minQ",
+      "patterns": [
+        "Bagaimana minQ memastikan keamanan data pengguna?"
+      ],
+      "responses": [
+        "minQ mengutamakan keamanan data pengguna. Semua data yang diunggah oleh pengguna dienkripsi dan disimpan dengan aman. Selain itu, minQ tidak membagikan data pengguna dengan pihak ketiga tanpa izin. Tim minQ juga melakukan pemantauan terus-menerus untuk mengidentifikasi dan mencegah potensi ancaman keamanan."
+      ]
+    },
+    {
+      "tag": "tarif_penggunaan_minQ",
+      "patterns": [
+        "Apakah penggunaan minQ dikenakan biaya?"
+      ],
+      "responses": [
+        "Penggunaan minQ sepenuhnya gratis. Pengguna hanya perlu terkoneksi dengan internet untuk mengakses aplikasi ini tanpa biaya tambahan."
+      ]
+    },
+    {
+      "tag": "pembaruan_fitur_minQ",
+      "patterns": [
+        "Bagaimana saya dapat mengetahui pembaruan fitur terbaru dari minQ?"
+      ],
+      "responses": [
+        "Pembaruan fitur terbaru dari minQ akan diumumkan melalui pemberitahuan di aplikasi dan juga akan diposting di situs web resmi minQ. Pengguna dapat secara teratur memeriksa situs web atau berlangganan buletin minQ untuk mendapatkan informasi terbaru."
+      ]
+    },
+    {
+      "tag": "minQ_vs_kompetitor",
+      "patterns": [
+        "Bagaimana minQ berbeda dari kompetitor sejenis?"
+      ],
+      "responses": [
+        "minQ memiliki keunggulan dibandingkan dengan kompetitor sejenis dalam hal pemindaian teks yang canggih, evaluasi kriteria yang akurat, dan analisis gaya penulisan yang mendalam. Selain itu, minQ juga menyediakan saran konten yang sangat spesifik dan personalisasi yang membantu pengguna dalam meningkatkan CV mereka."
+      ]
+    },
+    {
+      "tag": "minQ_feedback",
+      "patterns": [
+        "Apakah minQ menerima umpan balik dari pengguna?"
+      ],
+      "responses": [
+        "Ya, minQ sangat menghargai umpan balik dari pengguna. Kami percaya bahwa umpan balik dari pengguna membantu kami terus meningkatkan kualitas layanan kami. Pengguna dapat memberikan umpan balik melalui formulir yang tersedia di situs web resmi minQ atau melalui email feedback@minq.com."
+      ]
+    },
+    {
+      "tag": "minQ_kebijakan_privasi",
+      "patterns": [
+        "Bagaimana kebijakan privasi data pengguna di minQ?"
+      ],
+      "responses": [
+        "minQ sangat memperhatikan keamanan dan privasi data pengguna. Semua data yang diunggah oleh pengguna dienkripsi dan disimpan dengan aman. Kami tidak membagikan data pengguna dengan pihak ketiga tanpa izin. Untuk informasi lebih lanjut, Anda dapat membaca kebijakan privasi kami di situs web resmi minQ."
+      ]
+    },
+    {
+      "tag": "minQ_ekstensi_browser",
+      "patterns": [
+        "Apakah minQ memiliki ekstensi browser?"
+      ],
+      "responses": [
+        "Ya, minQ menyediakan ekstensi browser yang memungkinkan pengguna untuk dengan mudah memindai CV secara langsung dari browser mereka tanpa perlu mengunduh file terlebih dahulu. Ekstensi browser minQ dapat diunduh dan diinstal dari toko ekstensi browser resmi."
+      ]
+    },
+    {
+      "tag": "minQ_panduan_pengguna",
+      "patterns": [
+        "Apakah tersedia panduan pengguna untuk minQ?"
+      ],
+      "responses": [
+        "Ya, minQ menyediakan panduan pengguna lengkap yang dapat diakses oleh pengguna melalui situs web resmi atau aplikasi. Panduan ini mencakup langkah-langkah rinci tentang cara menggunakan setiap fitur minQ."
+      ]
+    },
+    {
+      "tag": "minQ_benefit_hr",
+      "patterns": [
+        "Bagaimana minQ dapat memberikan manfaat kepada departemen HR?"
+      ],
+      "responses": [
+        "minQ dapat membantu departemen HR dalam mengotomatisasi dan mempercepat proses seleksi CV. Dengan fitur pemindaian teks dan evaluasi kriteria yang canggih, minQ dapat membantu menyaring CV yang memenuhi kriteria tertentu secara otomatis, menghemat waktu dan upaya departemen HR. Hal ini memungkinkan mereka untuk fokus pada tahap seleksi yang lebih mendalam."
+      ]
+    },
+    {
+      "tag": "minQ_benefit_candidates",
+      "patterns": [
+        "Apa manfaat yang diperoleh kandidat dengan menggunakan minQ?"
+      ],
+      "responses": [
+        "Dengan menggunakan minQ, kandidat dapat memastikan bahwa CV mereka memenuhi kriteria yang diinginkan oleh perusahaan. minQ memberikan saran dan rekomendasi untuk memperbaiki CV sehingga meningkatkan peluang mereka untuk diterima di perusahaan impian mereka."
+      ]
+    },
+    {
+      "tag": "minQ_integration_api",
+      "patterns": [
+        "Apakah minQ dapat diintegrasikan dengan API?"
+      ],
+      "responses": [
+        "Ya, minQ menyediakan antarmuka pemrograman aplikasi (API) yang memungkinkan integrasi dengan sistem dan aplikasi lainnya. Tim teknis minQ akan memberikan dokumentasi dan bantuan teknis untuk memastikan integrasi yang lancar."
+      ]
+    },
+    {
+      "tag": "minQ_accessibility",
+      "patterns": [
+        "Apakah minQ dapat diakses oleh pengguna dengan disabilitas?"
+      ],
+      "responses": [
+        "Ya, minQ memprioritaskan aksesibilitas. Kami berupaya untuk memastikan bahwa platform kami dapat diakses dan digunakan oleh semua orang, termasuk mereka dengan disabilitas. Jika ada kebutuhan khusus atau saran terkait aksesibilitas, silakan hubungi tim dukungan kami."
+      ]
+    },
+    {
+      "tag": "minQ_language_support",
+      "patterns": [
+        "Dalam bahasa apa minQ tersedia?"
+      ],
+      "responses": [
+        "minQ tersedia dalam berbagai bahasa termasuk Bahasa Inggris, Spanyol, Prancis, Jerman, dan banyak lagi. Pengguna dapat memilih bahasa preferensi mereka saat menggunakan aplikasi."
+      ]
+    },
+    {
+      "tag": "minQ_customization",
+      "patterns": [
+        "Dapatkah minQ disesuaikan dengan kebutuhan khusus perusahaan?"
+      ],
+      "responses": [
+        "Ya, minQ dapat disesuaikan dengan kebutuhan khusus perusahaan. Tim teknis minQ akan bekerja sama dengan perusahaan untuk memastikan bahwa minQ memenuhi persyaratan dan kriteria yang diinginkan."
+      ]
+    }
+    
+  ]
+}
