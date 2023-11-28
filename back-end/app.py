@@ -1,4 +1,5 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 import pickle
 from PyPDF2 import PdfReader
 import json
@@ -10,7 +11,7 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.models import load_model
 
 app = Flask(__name__)
-
+CORS(app)
 # Fungsi untuk membaca konten dari file PDF
 def read_pdf(file_path):
     pdf = PdfReader(file_path)
